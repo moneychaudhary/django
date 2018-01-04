@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c48e605-bfa8-4a56-a21b-760c37874bb8" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/testproject/testapp/permissions.py" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/src/testproject/db.sqlite3" afterPath="$PROJECT_DIR$/src/testproject/db.sqlite3" />
-      <change beforePath="$PROJECT_DIR$/src/testproject/testapp/serializers.py" afterPath="$PROJECT_DIR$/src/testproject/testapp/serializers.py" />
-      <change beforePath="$PROJECT_DIR$/src/testproject/testapp/urls.py" afterPath="$PROJECT_DIR$/src/testproject/testapp/urls.py" />
       <change beforePath="$PROJECT_DIR$/src/testproject/testapp/views.py" afterPath="$PROJECT_DIR$/src/testproject/testapp/views.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -76,11 +76,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/testproject/testapp/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
-              <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+            <state relative-caret-position="849">
+              <caret line="44" column="55" lean-forward="false" selection-start-line="44" selection-start-column="55" selection-end-line="44" selection-end-column="55" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -112,7 +112,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="serializers.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="serializers.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/testproject/testapp/serializers.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="506">
@@ -120,6 +120,16 @@
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="permissions.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/testproject/testapp/permissions.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="9" column="40" lean-forward="false" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -145,9 +155,10 @@
         <option value="$PROJECT_DIR$/src/testproject/testapp/models.py" />
         <option value="$PROJECT_DIR$/src/testproject/testapp/admin.py" />
         <option value="$PROJECT_DIR$/src/testproject/testproject/urls.py" />
-        <option value="$PROJECT_DIR$/src/testproject/testapp/views.py" />
         <option value="$PROJECT_DIR$/src/testproject/testapp/urls.py" />
         <option value="$PROJECT_DIR$/src/testproject/testapp/serializers.py" />
+        <option value="$PROJECT_DIR$/src/testproject/testapp/permissions.py" />
+        <option value="$PROJECT_DIR$/src/testproject/testapp/views.py" />
       </list>
     </option>
   </component>
@@ -406,22 +417,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/testproject/testapp/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/testproject/testapp/serializers.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="506">
           <caret line="23" column="19" lean-forward="true" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/testproject/testapp/permissions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="40" lean-forward="false" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/testproject/testapp/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="849">
+          <caret line="44" column="55" lean-forward="false" selection-start-line="44" selection-start-column="55" selection-end-line="44" selection-end-column="55" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
           </folding>
         </state>
       </provider>
