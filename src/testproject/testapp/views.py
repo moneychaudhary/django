@@ -1,16 +1,11 @@
-from django.shortcuts import render
 from rest_framework.views import APIView
 from rest_framework.response import Response
 from rest_framework import viewsets
 from rest_framework.authentication import TokenAuthentication
-
-
-from . import models
-from . import serializers , permissions
+from . import models , serializers , permissions
 from rest_framework import status
 
 
-# Create your views here.
 class HelloAPIView(APIView):
     serializer_class = serializers.HelloSerializer
 
