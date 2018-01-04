@@ -7,7 +7,7 @@ from django.db import models
 
 class UserProfileManager(BaseUserManager):
 
-    def create_user(self, email, name, password=None):
+    def create_user(self, email, name, password):
         if not email:
             raise ValueError('Users must have an email address.')
 
@@ -18,8 +18,8 @@ class UserProfileManager(BaseUserManager):
         user.save(using=self._db)
         return user
 
-    def create_super_user(self, email, name, password):
-        user = self.create_user(self, email, name, password)
+    def create_superuser(self, email, name, password):
+        user = self.create_user(email, name, password)
 
         user.is_superuser = True
         user.is_staff = True
@@ -32,7 +32,7 @@ class UserProfile(AbstractBaseUser, PermissionsMixin):
     email = models.EmailField(max_length=255, unique=True)
     name = models.CharField(max_length=255)
     is_active = models.BooleanField(default=True)
-    is_stop = models.BooleanField(default=True)
+    is_staff = models.BooleanField(default=False)
 
     objects = UserProfileManager()
 
